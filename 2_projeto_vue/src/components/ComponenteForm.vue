@@ -1,13 +1,20 @@
 <template>
   <form action="">
-    <input type="text">
-    <input type="text">
-    <input type="submit" value="Enviar">
+    <InputText/>
+    <InputText/>
+    <InputSubmit/>
   </form>
 </template>
 
 <script>
+import InputText from './form/InputText.vue';
+import InputSubmit from './form/InputSubmit.vue';
+
   export default {
-    name: "ComponenteForm"
+    name: "ComponenteForm",
+    components: {
+      InputText,
+      InputSubmit
+    }
   }
 </script>
