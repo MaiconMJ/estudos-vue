@@ -1,8 +1,14 @@
 <template>
   <form action="">
-    <InputText/>
-    <InputText/>
-    <InputSubmit/>
+    <div>
+      <InputText/>
+    </div>
+    <div>
+      <InputText/>
+    </div>
+    <div>
+      <InputSubmit/>
+    </div>
   </form>
 </template>
 
