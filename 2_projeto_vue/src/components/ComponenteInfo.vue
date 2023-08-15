@@ -10,12 +10,18 @@
     </ul>
     <p v-show="mostrar_email">Mande uma mensagem para: {{ email }}</p>
     <p>Para acessar o meu portfólio basta <a v-bind:href="meu_link" target="_blank">clicar aqui</a></p>
+    <ComponentePicture />
   </div>
 </template>
 
 <script >
+
+  import ComponentePicture from './ComponentePicture.vue';
   export default {
     name: 'ComponenteInfo',
+    components: {
+      ComponentePicture
+    },
     data() {
       return {
         esta_trabalhando: true,
