@@ -9,6 +9,7 @@
       <li>Python</li>
     </ul>
     <p v-show="mostrar_email">Mande uma mensagem para: {{ email }}</p>
+    <p>Para acessar o meu portfólio basta <a v-bind:href="meu_link" target="_blank">clicar aqui</a></p>
   </div>
 </template>
 
@@ -19,7 +20,8 @@
       return {
         esta_trabalhando: true,
         mostrar_email: true,
-        email: "maicon@email.com"
+        email: "maicon@email.com",
+        meu_link: "https://github.com/MaiconMJ"
       }
     }
   }
