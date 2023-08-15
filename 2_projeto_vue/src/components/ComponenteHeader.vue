@@ -12,3 +12,23 @@
   }
 </script>
 
+<style scoped>
+  ul {
+    list-style: none;
+    display: flex;
+  }
+
+  li {
+    margin-right: 10px;
+  }
+
+  a {
+    color: #ddd;
+    text-decoration: none;
+    transition:.5s
+  }
+
+  a:hover {
+    color: turquoise;
+  }
+</style>
