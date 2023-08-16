@@ -23,12 +23,12 @@
   }
 
   a {
-    color: #ddd;
+    color: #DDD;
     text-decoration: none;
     transition:.5s
   }
 
   a:hover {
-    color: turquoise;
+    color: red
   }
 </style>
