@@ -16,6 +16,7 @@
   ul {
     list-style: none;
     display: flex;
+    background-color: #000;
   }
 
   li {

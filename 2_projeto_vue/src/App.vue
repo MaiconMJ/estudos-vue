@@ -2,7 +2,7 @@
   <div>
     <ComponenteHeader />
     <PrimeiroComponente />
-    <p>Esse é o conteúdo do App: {{ testando }}</p>
+    <p class="paragrafo-pai">Esse é o conteúdo do App: {{ testando }}</p>
     <LifeCycle />
     <ComponentePessoa />
     
@@ -38,4 +38,12 @@ export default {
     background-color: #333;
     color: #fff
   }
+
+  a {
+    color:red;
+  }
+  .teste {
+    background-color: #000;
+  }
+
 </style>
